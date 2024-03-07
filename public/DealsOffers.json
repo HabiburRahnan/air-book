@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "With bkash payment only",
+    "name": "up to 14% discount on the base fare of domestic flights",
+    "description": "Hazrat Shahjalal Internatio",
+    "image": "https://i.ibb.co/D1bZGyr/c.png"
+  },
+  {
+    "id": 2,
+    "title": "With bkash payment only",
+    "name": "up to 14% discount on the base fare of domestic flights",
+    "description": "Cox’s Bazar International",
+    "image": "https://i.ibb.co/qYz2RDm/b.png"
+  },
+  {
+    "id": 3,
+    "title": "With bkash payment only",
+    "name": "up to 14% discount on the base fare of domestic flights",
+    "description": "tuesday, 2023",
+    "image": "https://i.ibb.co/zHbRZhQ/a.png"
+  }
+]

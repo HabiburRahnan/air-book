@@ -8,10 +8,16 @@
       href="https://i.ibb.co/MfNJP0H/LOGO-white.png"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
     <title>AIR BOOK</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script type="module">
+      import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+
+      new fairyDustCursor();
+    </script>
   </body>
 </html>

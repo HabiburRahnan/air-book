@@ -1,6 +1,6 @@
 const CekBox = () => {
   return (
-    <div className="flex justify-between items-center pb-10">
+    <div className="md:flex justify-between items-center pb-10 ">
       {/* cekBox */}
       <div className="flex justify-center items-center gap-5">
         <div className="form-control">

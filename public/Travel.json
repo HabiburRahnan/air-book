@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Work and Travel",
+    "name": "Ys Stafen",
+    "description": "Embracing the Digital Nomad Lifestyle the Digital Nomad thr...",
+    "date": "16 septembar 23",
+    "image": "https://i.ibb.co/f0Xv6Vf/Rectangle-18.png",
+    "avatar": "https://i.ibb.co/d5NxXB4/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Historical",
+    "name": "Habibur Rahman",
+    "description": "Historical Journeys: Stepping Back in Time Through Travel",
+    "date": "14 septembar 23",
+    "image": "https://i.ibb.co/RYDS0pg/Rectangle-18-1.png",
+    "avatar": "https://i.ibb.co/bdbnH01/unnamed.png"
+  },
+  {
+    "id": 3,
+    "title": "Sustainable Tourism",
+    "name": "Elara Thorne",
+    "description": "Sustainable Tourism: Preserving the Planet While Seeing It All",
+    "date": "10 septembar 23",
+    "image": "https://i.ibb.co/nBXDD70/Rectangle-18-2.png",
+    "avatar": "https://i.ibb.co/yhCLdC7/3.jpg"
+  }
+]
