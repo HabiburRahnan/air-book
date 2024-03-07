@@ -7,7 +7,7 @@ const PopularAirlines = () => {
       .then((res) => res.json())
       .then((data) => setPopulartems(data));
   }, []);
-  console.log(populartems);
+  // console.log(populartems);
   return (
     <div className="container mx-auto p-10">
       <Title title="Popular" subTile="Airlines"></Title>

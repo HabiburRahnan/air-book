@@ -1,6 +1,7 @@
 import DealsOffers from "../DealsOffers";
 import Banner from "./Banner";
 import Count from "./Count";
+import SEction from "./FAQSection/SEction";
 import Featured from "./Featured";
 import Hero from "./Hero";
 import PopularAirlines from "./PopularAirlines";
@@ -15,6 +16,7 @@ const Home = () => {
       <PopularAirlines></PopularAirlines>
       <Count></Count>
       <Travel></Travel>
+      <SEction></SEction>
       <Hero></Hero>
     </div>
   );

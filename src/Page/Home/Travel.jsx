@@ -1,13 +1,12 @@
 import Title from "../../Component/Title";
 
-
 const Travel = () => {
   return (
     <div className="container mx-auto p-10">
       <Title title="Travel " subTile="Blog"></Title>
       <div className="carousel  w-full">
         <div id="slide1" className="carousel-item relative w-full">
-          <div className="flex md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className="flex md:grid-cols-1 lg:grid-cols-3 gap-10">
             <div className="card w-96  bg-base-100 shadow-xl shadow-gray-400">
               <figure>
                 <img
@@ -31,11 +30,11 @@ const Travel = () => {
                     alt="avatar"
                   />
                   <p>Ys Stafen</p>
-                  <button className="text-[#FFB700]  ">Read more >></button>
+                  <button className="text-[#FFB700]  ">Read more ...</button>
                 </div>
               </div>
             </div>
-            <div className="card w-96  bg-base-100 shadow-xl shadow-gray-400">
+            <div className="card w-96  bg-base-100 shadow-xl shadow-gray-400 ">
               <figure>
                 <img
                   className="w-full"
@@ -49,7 +48,7 @@ const Travel = () => {
                   <p>14 septembar 23</p>
                 </div>
                 <p className="text-lg font-semibold p-2">
-                Historical Journeys: Stepping Back in Time Through Travel
+                  Historical Journeys: Stepping Back in Time Through Travel
                 </p>
                 <div className="card-actions flex justify-center items-center mb-0">
                   <img
@@ -58,7 +57,7 @@ const Travel = () => {
                     alt="avatar"
                   />
                   <p>Habibur Rahman</p>
-                  <button className="text-[#FFB700]  ">Read more >></button>
+                  <button className="text-[#FFB700]  ">Read more ...</button>
                 </div>
               </div>
             </div>
@@ -76,7 +75,7 @@ const Travel = () => {
                   <p>10 septembar 23</p>
                 </div>
                 <p className="text-lg font-semibold p-2">
-                Sustainable Tourism: Preserving the Planet While Seeing It All
+                  Sustainable Tourism: Preserving the Planet While Seeing It All
                 </p>
                 <div className="card-actions flex justify-center items-center mb-0">
                   <img
@@ -85,7 +84,7 @@ const Travel = () => {
                     alt="avatar"
                   />
                   <p>Elara Thorne</p>
-                  <button className="text-[#FFB700]  ">Read more >></button>
+                  <button className="text-[#FFB700]  ">Read more ...</button>
                 </div>
               </div>
             </div>

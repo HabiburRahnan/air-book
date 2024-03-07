@@ -7,21 +7,17 @@ const TravelCard = () => {
       .then((res) => res.json())
       .then((data) => setTravelItems(data));
   }, []);
-  console.log(travelItems);
+  // console.log(travelItems);
   return (
     <div className="container mx-auto ">
       <div className="flex-1   gap-2 py-5 ">
-        { travelItems?.map((item) => (
+        {travelItems?.map((item) => (
           <div
             key={item?.id}
             className="card w-96  bg-base-100 shadow-xl shadow-gray-400"
           >
             <figure>
-              <img
-                className="w-full"
-                src={item?.image}
-                alt="Featured Photo"
-              />
+              <img className="w-full" src={item?.image} alt="Featured Photo" />
             </figure>
             <div className="card-body ">
               <div className="flex justify-around items-center text-sm">
@@ -36,7 +32,7 @@ const TravelCard = () => {
                   alt="avatar"
                 />
                 <p>{item?.name}</p>
-                <button className="text-[#FFB700]  ">Read more >></button>
+                <button className="text-[#FFB700]  ">Read more ...</button>
               </div>
             </div>
           </div>
